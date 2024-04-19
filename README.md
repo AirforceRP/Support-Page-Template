@@ -58,17 +58,17 @@
 - **How can I update my payment method?**
   - You can update your payment method from your account settings by navigating to the billing section.
 
-
+## A Template to add a Question
 ```html
 <div class="accordion-item bg-transparent border-top border-bottom py-3">
   <h2 class="accordion-header" id="faqAccountHeading1">
     <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse1" aria-expanded="false" aria-controls="faqAccountCollapse1">
-      What is an account?
+      Question Goes here
     </button>
   </h2>
   <div id="faqAccountCollapse1" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading1">
     <div class="accordion-body">
-      <p>An account is a personal or organizational record that allows you to access and manage various services, often requiring authentication through a username and password.</p>
+     Answer Goes here
     </div>
   </div>
 </div>

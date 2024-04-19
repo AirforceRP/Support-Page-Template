@@ -1,1 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helpdesk</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/faqs/faq-3/assets/css/faq-3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body style="background-color: black;">
+    <style>
+        .FAQ {
+            background-color: #fff;
+        }
+        
+</style>
+    </style>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" style="padding-left:30px;">  Helpdesk</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="/tickets/index.php"><i class="material-symbols-outlined"></i> Helpdesk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/knowledgebase/index.php"><i class="bi bi-book"></i> Knowledge Base</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-5 text-white p-4" style="background-color:black;">
+    <h1 class="text-center mb-4">Helpdesk</h1>
+    <div class="input-group mb-3" style="background-color:black;">
+      <input type="text" class="form-control" placeholder="  Search for topics..." aria-label="Search for topics..." aria-describedby="basic-addon2" style="border-radius:30px; border-color:black;">
+      
+    </div>
+  </div>
+
+  <div class="container mt-5" style="background-color:black;">
+    <section id="features" style="">
+      <h2 class="text-center mb-3">Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Billing</h5>
+              <i class="bi bi-wallet icon" style="font-size:48px;"></i><br><br>
+              <p class="card-text">Learn about our billing process and payment options.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Features</h5>
+              <i class="bi bi-kanban icon" style="font-size:48px;"></i><br><br>
+              <p class="card-text">Explore the features and capabilities of our product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Knowledge Base</h5>
+              <i class="bi bi-book icon" style="font-size:48px;"></i><br><br>
+              <p class="card-text">Access our knowledge base for answers to common questions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <!-- FAQ 3 - Bootstrap Brain Component -->
+<section class="bsb-faq-3 py-3 py-md-5 py-xl-8" style="background-color:#fff;">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center">Frequently Asked Questions</h2>
+        <p class="text-secondary text-center lead fs-4">Welcome to our FAQ page, your one-stop resource for answers to commonly asked questions.</p>
+        <p class="mb-5 text-center">Whether you're a new customer looking to learn more about what we offer or a long-time user seeking clarification on specific topics, this page has clear and concise information about our products and services.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQs: My Account -->
+  <div class="mb-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-11 col-xl-10">
+          <div class="d-flex align-items-end mb-5">
+            <i class="bi bi-person-gear me-3 lh-1 display-5"></i>
+            <h3 class="m-0">Your Account</h3>
+          </div>
+        </div>
+        <div class="col-11 col-xl-10">
+          <div class="accordion accordion-flush" id="faqAccount">
+            <div class="accordion-item bg-transparent border-top border-bottom py-3">
+              <h2 class="accordion-header" id="faqAccountHeading1">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse1" aria-expanded="false" aria-controls="faqAccountCollapse1">
+                  What is an account?
+                </button>
+              </h2>
+              <div id="faqAccountCollapse1" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading1">
+                <div class="accordion-body">
+                  <p>An account is a personal or organizational record that allows you to access and manage various services, often requiring authentication through a username and password.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqAccountHeading2">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse2" aria-expanded="false" aria-controls="faqAccountCollapse2">
+                  How do I create an account?
+                </button>
+              </h2>
+              <div id="faqAccountCollapse2" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading2">
+                <div class="accordion-body">
+                  <p>To create an account, visit the website or application and look for a "Sign Up" or "Create Account" button. Follow the instructions to enter your information and create a username and password.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqAccountHeading3">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse3" aria-expanded="false" aria-controls="faqAccountCollapse3">
+                  How do I secure my account?
+                </button>
+              </h2>
+              <div id="faqAccountCollapse3" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading3">
+                <div class="accordion-body">
+                  <p>To secure your account, use a robust and unique password, enable two-factor authentication if available, and be cautious about sharing your login information. Regularly update your password and avoid using easily guessable information like birthdays or names.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqAccountHeading4">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse4" aria-expanded="false" aria-controls="faqAccountCollapse4">
+                  What should I do if I forget my password?
+                </button>
+              </h2>
+              <div id="faqAccountCollapse4" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading4">
+                <div class="accordion-body">
+                  <p>If you forget your password, most websites and services offer a "Forgot Password" or "Reset Password" option. Follow the steps to reset your password, Though SMS verification.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqAccountHeading5">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqAccountCollapse5" aria-expanded="false" aria-controls="faqAccountCollapse5">
+                  What should I do if my account is compromised or hacked?
+                </button>
+              </h2>
+              <div id="faqAccountCollapse5" class="accordion-collapse collapse" aria-labelledby="faqAccountHeading5">
+                <div class="accordion-body">
+                  <p>If you suspect your account has been compromised, change your password immediately. Contact the service provider for further assistance, and consider enabling two-factor authentication for added security.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="mb-8">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11 col-xl-10">
+        <div class="d-flex align-items-end mb-5">
+          <i class="bi bi-question-circle me-3 lh-1 display-5"></i>
+          <h3 class="m-0">Support</h3>
+        </div>
+      </div>
+      <div class="col-11 col-xl-10">
+        <div class="accordion accordion-flush" id="faqSupport">
+          <!-- Support Questions -->
+          <!-- Question 1 -->
+          <div class="accordion-item bg-transparent border-top border-bottom py-3">
+            <h2 class="accordion-header" id="faqSupportHeading1">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqSupportCollapse1" aria-expanded="false" aria-controls="faqSupportCollapse1">
+                What is the best way to contact support?
+              </button>
+            </h2>
+            <div id="faqSupportCollapse1" class="accordion-collapse collapse" aria-labelledby="faqSupportHeading1">
+              <div class="accordion-body">
+                The best way to contact support is through our dedicated Ticket System or by using the Support Bot feature on our website.
+              </div>
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="accordion-item bg-transparent border-bottom py-3">
+            <h2 class="accordion-header" id="faqSupportHeading2">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqSupportCollapse2" aria-expanded="false" aria-controls="faqSupportCollapse2">
+                 What are your support hours?
+              </button>
+            </h2>
+            <div id="faqSupportCollapse2" class="accordion-collapse collapse" aria-labelledby="faqSupportHeading2">
+              <div class="accordion-body">
+                 Our support team is available from Monday to Friday, 9 AM to 5 PM (local time). Chicago
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border-bottom py-3">
+          <h2 class="accordion-header" id="faqSupportHeading3">
+            <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqSupportCollapse3" aria-expanded="false" aria-controls="faqSupportCollapse3">
+               How long does it take to receive a response from support?
+            </button>
+          </h2>
+          <div id="faqSupportCollapse3" class="accordion-collapse collapse" aria-labelledby="faqSupportHeading3">
+            <div class="accordion-body">
+               We aim to respond to support inquiries within 24 hours during business days.
+            </div>
+          </div>
+        </div>
+        <!-- Question 4 -->
+        <div class="accordion-item bg-transparent border-bottom py-3">
+          <h2 class="accordion-header" id="faqSupportHeading4">
+            <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqSupportCollapse4" aria-expanded="false" aria-controls="faqSupportCollapse4">
+               Can I request support over the phone?
+            </button>
+          </h2>
+          <div id="faqSupportCollapse4" class="accordion-collapse collapse" aria-labelledby="faqSupportHeading4">
+            <div class="accordion-body">
+              Currently, we only offer support via Helpdesk or use our support bot.
+            </div>
+          </div>
+        </div>
+        <!-- Question 5 -->
+        <div class="accordion-item bg-transparent border-bottom py-3">
+          <h2 class="accordion-header" id="faqSupportHeading5">
+            <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqSupportCollapse5" aria-expanded="false" aria-controls="faqSupportCollapse5">
+               What information should I provide when contacting support?
+            </button>
+          </h2>
+          <div id="faqSupportCollapse5" class="accordion-collapse collapse" aria-labelledby="faqSupportHeading5">
+            <div class="accordion-body">
+               Please provide as much detail as possible about your issue, including any error messages or steps to reproduce the problem.
+            </div>
+          </div>
+        </div>
+          <!-- Add more questions and answers here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-8">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11 col-xl-10">
+        <div class="d-flex align-items-end mb-5">
+          <i class="bi bi-bug me-3 lh-1 display-5"></i>
+          <h3 class="m-0">Bugs</h3>
+        </div>
+      </div>
+      <div class="col-11 col-xl-10">
+        <div class="accordion accordion-flush" id="faqBugs">
+          <!-- Bugs Questions -->
+          <!-- Question 1 -->
+          <div class="accordion-item bg-transparent border-top border-bottom py-3">
+            <h2 class="accordion-header" id="faqBugsHeading1">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBugsCollapse1" aria-expanded="false" aria-controls="faqBugsCollapse1">
+                 How do I report a bug?
+              </button>
+            </h2>
+            <div id="faqBugsCollapse1" class="accordion-collapse collapse" aria-labelledby="faqBugsHeading1">
+              <div class="accordion-body">
+                 You can report a bug by sending an email to our support team or by using the bug reporting feature in our app.
+              </div>
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="accordion-item bg-transparent border-bottom py-3">
+            <h2 class="accordion-header" id="faqBugsHeading2">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBugsCollapse2" aria-expanded="false" aria-controls="faqBugsCollapse2">
+                 How can I check the status of a reported bug?
+              </button>
+            </h2>
+            <div id="faqBugsCollapse2" class="accordion-collapse collapse" aria-labelledby="faqBugsHeading2">
+              <div class="accordion-body">
+                 You can check the status of a reported bug by logging into your account and viewing the bug tracking section.
+              </div>
+            </div>
+          </div>
+            <!-- Bugs Questions -->
+            <!-- Question 3 -->
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqBugsHeading3">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBugsCollapse3" aria-expanded="false" aria-controls="faqBugsCollapse3">
+                  How can I provide additional information about a reported bug?
+                </button>
+              </h2>
+              <div id="faqBugsCollapse3" class="accordion-collapse collapse" aria-labelledby="faqBugsHeading3">
+                <div class="accordion-body">
+                   You can provide additional information by replying to the confirmation email you received after reporting the bug.
+                </div>
+              </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqBugsHeading4">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBugsCollapse4" aria-expanded="false" aria-controls="faqBugsCollapse4">
+                   How often do you release bug fixes?
+                </button>
+              </h2>
+              <div id="faqBugsCollapse4" class="accordion-collapse collapse" aria-labelledby="faqBugsHeading4">
+                <div class="accordion-body">
+                   We release bug fixes as soon as they are identified and tested, typically as part of regular software updates.
+                </div>
+              </div>
+            </div>
+            <!-- Question 5 -->
+            <div class="accordion-item bg-transparent border-bottom py-3">
+              <h2 class="accordion-header" id="faqBugsHeading5">
+                <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBugsCollapse5" aria-expanded="false" aria-controls="faqBugsCollapse5">
+                   What should I do if I encounter a recurring bug?
+                </button>
+              </h2>
+              <div id="faqBugsCollapse5" class="accordion-collapse collapse" aria-labelledby="faqBugsHeading5">
+                <div class="accordion-body">
+                   Please report the recurring bug to our support team with as much detail as possible, including when and how it occurs.
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11 col-xl-10">
+        <div class="d-flex align-items-end mb-5">
+          <i class="bi bi-credit-card me-3 lh-1 display-5"></i>
+          <h3 class="m-0">Billing</h3>
+        </div>
+      </div>
+      <div class="col-11 col-xl-10">
+        <div class="accordion accordion-flush" id="faqBilling">
+          <!-- Billing Questions -->
+          <!-- Question 1 -->
+          <div class="accordion-item bg-transparent border-top border-bottom py-3">
+            <h2 class="accordion-header" id="faqBillingHeading1">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBillingCollapse1" aria-expanded="false" aria-controls="faqBillingCollapse1">
+                 What payment methods do you accept?
+              </button>
+            </h2>
+            <div id="faqBillingCollapse1" class="accordion-collapse collapse" aria-labelledby="faqBillingHeading1">
+              <div class="accordion-body">
+                 We accept various payment methods, including credit/debit card, PayPal, and ACH Transfers
+              </div>
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="accordion-item bg-transparent border-bottom py-3">
+            <h2 class="accordion-header" id="faqBillingHeading2">
+              <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBillingCollapse2" aria-expanded="false" aria-controls="faqBillingCollapse2">
+                 How can I update my billing information?
+              </button>
+            </h2>
+            <div id="faqBillingCollapse2" class="accordion-collapse collapse" aria-labelledby="faqBillingHeading2">
+              <div class="accordion-body">
+                 You can update your billing information by logging into your account and accessing the billing section.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border-bottom py-3">
+  <h2 class="accordion-header" id="faqBillingHeading3">
+    <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBillingCollapse3" aria-expanded="false" aria-controls="faqBillingCollapse3">
+       Can I change my billing plan at any time?
+    </button>
+  </h2>
+  <div id="faqBillingCollapse3" class="accordion-collapse collapse" aria-labelledby="faqBillingHeading3">
+    <div class="accordion-body">
+       Yes, you can upgrade or downgrade your billing plan at any time from your account settings.
+       <br><strong>(Note: We can't Downgrade or Upgrade for a Perpetual Licensing)</strong>
+    </div>
+  </div>
+</div>
+<!-- Question 4 -->
+<div class="accordion-item bg-transparent border-bottom py-3">
+  <h2 class="accordion-header" id="faqBillingHeading4">
+    <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBillingCollapse4" aria-expanded="false" aria-controls="faqBillingCollapse4">
+       Do you offer refunds for unused subscription periods?
+    </button>
+  </h2>
+  <div id="faqBillingCollapse4" class="accordion-collapse collapse" aria-labelledby="faqBillingHeading4">
+    <div class="accordion-body">
+       We do not offer refunds for unused subscription periods. However, you can cancel your subscription at any time. 
+       <br><strong>(Note: We can't Issue Refunds for a Perpetual Licensing)</strong>
+    </div>
+  </div>
+</div>
+<!-- Question 5 -->
+<div class="accordion-item bg-transparent border-bottom py-3">
+  <h2 class="accordion-header" id="faqBillingHeading5">
+    <button class="accordion-button collapsed bg-transparent fw-bold shadow-none link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faqBillingCollapse5" aria-expanded="false" aria-controls="faqBillingCollapse5">
+       How can I update my payment method?
+    </button>
+  </h2>
+  <div id="faqBillingCollapse5" class="accordion-collapse collapse" aria-labelledby="faqBillingHeading5">
+    <div class="accordion-body">
+       You can update your payment method from your account settings by navigating to the billing section.
+    </div>
+  </div>
+</div>
+          <!-- Add more questions and answers here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
